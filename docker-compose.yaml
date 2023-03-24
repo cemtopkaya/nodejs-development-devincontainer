@@ -1,0 +1,10 @@
+version: '3'
+
+services:
+  node-dev:
+    build:
+      context: .
+      target: development
+    ports:
+      - "3000:3000"
+      - "4200:4200"
